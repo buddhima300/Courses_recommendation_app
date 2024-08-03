@@ -13,7 +13,7 @@ def load_data(file_path):
     return df
 
 # Path to the CSV file
-file_path = (r"E:\Horizon campus\7th semester\Intelligent system\streamlit application\Coursera.csv\Coursera.csv")
+file_path = ("https://raw.githubusercontent.com/buddhima300/Courses_recommendation_app/main/Coursera.csv")
 
 # Load the data
 df = load_data(file_path)
@@ -25,7 +25,7 @@ st.text('Loading data...')
 
 
 # Load the dataset
-df = pd.read_csv(r"E:\Horizon campus\7th semester\Intelligent system\streamlit application\Coursera.csv\Coursera.csv")
+df = pd.read_csv("https://raw.githubusercontent.com/buddhima300/Courses_recommendation_app/main/Coursera.csv")
 
 # Convert 'Course Rating' to numeric
 df['Course Rating'] = pd.to_numeric(df['Course Rating'], errors='coerce')

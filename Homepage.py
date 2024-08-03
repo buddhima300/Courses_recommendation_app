@@ -8,7 +8,7 @@ st.info('This particular interactive application is designed to find out the bes
 st.write('Following graphs and diagrams shows the top rated online courses')
 
 #reading the dataset
-df=pd.read_csv(r"E:\Horizon campus\7th semester\Intelligent system\streamlit application\Coursera.csv\Coursera.csv")
+df=pd.read_csv("https://raw.githubusercontent.com/buddhima300/Courses_recommendation_app/main/Coursera.csv")
 dataset=df.head()
 st.write(dataset)
 
