@@ -1,1 +1,5 @@
-# Courses_recommendation_app
+This Interactive Streamlit application for Online Courses Recomendation design provide capability findout the best and Top rated Courses for the students who are seeking new opportunities. In the Homepage of this application offers different kind of graphs including Distribution graph, Boxplot analysis, correlation Heatmap and Course Rating analysis to get Brief Idea about the universities and allowed number of courses. This streamlit application provide an overview of the coursera online courses dataset to get insights about the courses. This application does not integrate any preprocessed and pre-trained model to analyse the data. However it directly uses the .csv file format dataset.
+
+In this streamlit application consist of two main pages named homepage and preddiction app to navigate, one for view the data and other for get the courses recommendations through the app. in this context, any student able to select the relevant filters and sliders to recomendations about the courses. in their user able to know what are the Top rated universities and number of courses is it avaiable.
+
+Through this prediction application provide different type of streamlit elements to hold the interaction of users including providing progress bars, check boxes and toggle buttons.
