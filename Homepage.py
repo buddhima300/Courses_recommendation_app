@@ -1,5 +1,10 @@
 import pandas as pd
 import streamlit as st 
+#showing the courses distribution
+import streamlit as st
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
 
 st.title("Welcome to online courses recommendation")
 st.image('https://foundr.com/wp-content/uploads/2023/04/How-to-create-an-online-course.jpg')
@@ -12,11 +17,7 @@ df=pd.read_csv("https://raw.githubusercontent.com/buddhima300/Courses_recommenda
 dataset=df.head()
 st.write(dataset)
 
-#showing the courses distribution
-import streamlit as st
-import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
+
 
 st.info('This will show how the university courses are distibuted through this online platform')
 # Count the number of courses offered by each university
